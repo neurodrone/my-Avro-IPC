@@ -1,0 +1,29 @@
+{
+    "namespace": "proto.server",
+    "protocol": "MessageAPI",
+
+    "types": [
+        {
+            "name": "message",
+            "type": "record",
+            "fields": [
+                { "name": "id","type": "string" },
+                { "name": "day", "type": "int" }
+            ]
+        }
+    ],
+
+    "messages": {
+        "get": {
+            "request": [ { "name": "data", "type": "message" } ],
+            "response": ["bytes", "null"]
+        },
+        "put": {
+            "request": [
+                { "name": "data", "type": "message" },
+                { "name": "message", "type": "bytes" }
+            ],
+            "response": "null"
+        }
+    }
+}
