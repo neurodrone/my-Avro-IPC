@@ -1,7 +1,7 @@
 Avro Experimental Analysis
 ==========================
 
-This is an experimental project to try out various features that Avro serialization format provides. The intial goal is to test out how flexible the schema evolution is across the readers/writers.
+This is an experimental project to try out various features that Avro serialization format provides. The initial goal is to test out how flexible the schema evolution is across the readers/writers.
 
 Usage:
 -----
