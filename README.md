@@ -6,7 +6,7 @@ This is an experimental project to try out various features that Avro serializat
 Usage:
 -----
 
-You can get this demo up and running easily via command line without needing to use any specific IDE. Ideally, it is recommended that you have [Maven](http://maven.apache.org/download.html) installed and follow the instructions below.
+You can get this demo up and running easily via command line without needing to use any specific IDE. Ideally, it is recommended that you have [Maven](http://maven.apache.org/download.html) installed and follow the enumerated instructions.
 
 1. Perform a quick compilation of the source.
         
